@@ -1,5 +1,7 @@
 # spotify_flutter
 
+![Captura015](https://user-images.githubusercontent.com/62777613/219255403-9a35220d-f0f3-476e-8fbb-e7f93dfd7cb9.PNG)
+
 A new Flutter project.
 
 ## Getting Started
