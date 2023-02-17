@@ -5,6 +5,8 @@ import 'package:spotify_flutter/views/profile.dart';
 import 'package:spotify_flutter/views/search.dart';
 
 class Tabbar extends StatefulWidget {
+  const Tabbar({super.key});
+
 
   @override
   State<Tabbar> createState() => _TabbarState();
