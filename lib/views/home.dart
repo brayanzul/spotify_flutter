@@ -68,96 +68,40 @@ class _HomeViewState extends State<HomeView> {
                       physics: const BouncingScrollPhysics(),
                       padding: const EdgeInsets.all(20),
                       child: Row(
-                        children: [
+                        children: const [
                           AlbumCard(
                             label: 'Davils Gun',
-                            image: const AssetImage('assets/Album3.jpg'),
-                            onTap: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => const AlbumView(),
-                                )
-                              );
-                            },
+                            image: AssetImage('assets/Album3.jpg'),
                           ),
-                          const SizedBox(width: 16),
+                          SizedBox(width: 16),
                           AlbumCard(
                             label: 'Battle Songs',
-                            image: const AssetImage('assets/Album2.jpg'),
-                            onTap: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => const AlbumView(),
-                                )
-                              );
-                            },
+                            image: AssetImage('assets/Album2.jpg'),
                           ),
-                          const SizedBox(width: 16),
+                          SizedBox(width: 16),
                           AlbumCard(
                             label: 'Rebirth',
-                            image: const AssetImage('assets/Album5.jpg'),
-                            onTap: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => const AlbumView(),
-                                )
-                              );
-                            },
+                            image: AssetImage('assets/Album5.jpg'),
                           ),
-                          const SizedBox(width: 16),
+                          SizedBox(width: 16),
                           AlbumCard(
                             label: 'Ophelia',
-                            image: const AssetImage('assets/Album4.jpg'), 
-                              onTap: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => const AlbumView(),
-                                )
-                              );
-                            },
+                            image: AssetImage('assets/Album4.jpg'), 
                           ),
-                          const SizedBox(width: 16),
+                          SizedBox(width: 16),
                           AlbumCard(
                             label: 'Pain',
-                            image: const AssetImage('assets/Album12.jpg'), 
-                              onTap: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => const AlbumView(),
-                                )
-                              );
-                            },
+                            image: AssetImage('assets/Album12.jpg'), 
                           ),
-                          const SizedBox(width: 16),
+                          SizedBox(width: 16),
                           AlbumCard(
                             label: 'Anthology',
-                            image: const AssetImage('assets/Album14.jpg'),
-                            onTap: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => const AlbumView(),
-                                )
-                              );
-                            },
+                            image: AssetImage('assets/Album14.jpg'),
                           ),
-                          const SizedBox(width: 16),
+                          SizedBox(width: 16),
                           AlbumCard(
                             label: 'Pop Remix',
-                            image: const AssetImage('assets/Album10.jpg'),
-                            onTap: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => const AlbumView(),
-                                )
-                              );
-                            },
+                            image: AssetImage('assets/Album10.jpg'),
                           ),
                         ],
                       ),
